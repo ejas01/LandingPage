@@ -1,24 +1,65 @@
 * {
     font-family: roboto;
 }
+body {
+    margin: 0;
+}
 .hero {
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
+    padding-top: 8px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 .header {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 .logo {
-    size: 24px;
+    font-size: 24px;
     color: #f9faf8;
 }
+
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
     gap: 8px;
+}
+
+.hero-section {
+    display: flex;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb; 
+}
+
+.hero-section img {
+    width: 400px;
+    padding-bottom: 70px;
+}
+
+.hero-section p {
+    margin: 0;
+}
+
+.signup {
+    cursor: pointer;
+    padding: 6px 30px;
+    border-radius: 8px;
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    color: white;
 }
