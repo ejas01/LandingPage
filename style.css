@@ -63,3 +63,36 @@ ul {
     border: 1px solid #3882f6;
     color: white;
 }
+
+.info-sect {
+    text-align: center;
+}
+
+.info-sect p {
+    size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+
+}
+
+.info-sect img {
+    height: 100px;
+    width: 100px;
+}
+
+.box-text {
+    text-align: center;
+}
